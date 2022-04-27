@@ -3,12 +3,29 @@ body {
     display: flex;
     flex-direction: column;
 }
-
-header, footer{
+ 
+header, footer, a {
     background-color: #1f2937;
     color: #e5e7eb;
 }
 
 .main-middle {
     background-color: #e5e7eb;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 18px;
+}
+
+a {
+    text-decoration: none;
 }
