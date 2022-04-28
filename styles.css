@@ -79,7 +79,6 @@ h2 {
 .info-graphic {
     display: flex;
     padding: 20px;
-    margin: 0 12%;
     justify-content: center;
     align-items: center;
 }
@@ -99,6 +98,22 @@ figure {
 }
 .main-middle {
     background-color: #e5e7eb;
+}
+
+blockquote {
+    margin: 0;
+    padding: 85px 0 0;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+}
+
+cite {
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 80px;
+    font-style: normal;
 }
 
 button, .call-to-action {
