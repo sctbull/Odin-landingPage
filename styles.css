@@ -40,7 +40,7 @@ h1, p {
     padding: 0;
 }
 
-h1, .logo {
+h1, .logo, h4, button {
     color: #f9faf8;
 }
 
@@ -116,8 +116,47 @@ cite {
     font-style: normal;
 }
 
+h4 {
+    margin: 0;
+    padding: 0;
+}
+
+.main-bottom {
+   margin: 60px auto;
+}
+
+.call-to-action {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    border-radius: 8px;
+}
+
 button, .call-to-action {
     background-color: #3882f6;
+}
+
+button {
+ border-style: none;
+ padding: 5px 24px;
+ border-radius: 7px;
+ cursor: pointer;
+}
+
+.sign-up-bottom {
+    color: #e5e7eb;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    font-size: 14px;
+}
+
+.sign-up-bottom button {
+    border: 1px solid white;
+    margin-left: 10px;
+}
+.call-to-action h4, .sign-up-bottom {
+    margin: auto 30px;
 }
 
 footer, h2 {
