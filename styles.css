@@ -25,9 +25,19 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    color: rgb(74, 181, 142);
+    text-decoration: underline;
+}
+
  .logo {
     font-size: 24px;
     margin-right: 20px;
+    color: rgb(206, 229, 221);
+ }
+
+ .logo-span {
+    color: rgb(74, 181, 142);
  }
 
 h1 {
@@ -40,7 +50,7 @@ h1, p {
     padding: 0;
 }
 
-h1, .logo, h4, button {
+h1, h4, button {
     color: #f9faf8;
 }
 
