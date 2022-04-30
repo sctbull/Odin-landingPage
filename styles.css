@@ -96,6 +96,11 @@ figure {
     text-align: center;
     width: 150px;
 }
+
+.info-span {
+    font-weight: bold;
+}
+
 .main-middle {
     background-color: #e5e7eb;
 }
